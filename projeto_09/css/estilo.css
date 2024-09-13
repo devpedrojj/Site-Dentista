@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classes Auxiliares */
+.clear {
+    clear: both;
+}
+
+.container {
+    max-width: 960px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+/* ESTILOS SITE */
+
+/* SESSÃO 1 */
+section.header-master {
+    width: 100%;
+    padding: 30px 0;
+    min-height: 700px;
+    background-image: url(/images/bg_01.png);
+    background-size: cover;
+}
+
+div.logo {
+    float: left;
+    width: 166px;
+    height: 64px;
+    background-image: url(/images/logo.png);
+    background-size: 100% 100%;
+}
+
+header nav {
+    float: left;
+    padding-left: 60px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header li {
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+header li>a {
+    color: white;
+    text-decoration: none;
+}
+
+div.telefone-header{
+    float: left;
+    position: relative;
+    top: -8px;
+}
+
+div.telefone-header span{
+    font-size: 27px;
+    color: white;
+    padding-left: 30px;
+}
