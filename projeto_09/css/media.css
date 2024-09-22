@@ -1,0 +1,80 @@
+/* RESPONSIVO */
+/* 1024 PX */
+@media screen and (max-width: 1024px) {
+    section.contato input[type="text"],
+    section.contato input[type="email"],
+    section.contato input[type="tel"] {
+        width: 90%;
+    }
+
+    section.contato textarea {
+        width: 90%;
+    }
+
+    .etapas__single {
+        width: 100%;
+    }
+
+    section.etapas > .container {
+        max-width: 700px;
+    }
+
+    .diferencas__single {
+        float: left;
+        width: 100%;
+        margin-bottom: 40px;
+        border-right: 0 !important;
+    }
+
+    section.diferencas {
+        padding: 0;
+    }
+}
+
+/* 920 PX */
+@media screen and (max-width: 920px) {
+    nav.mobile {
+        display: block;
+    }
+
+    section.depoimento {
+        top: 5px;
+        z-index: 0;
+    }
+
+    .sobre-container {
+        width: 100%;
+        position: relative;
+        z-index: 3;
+    }
+
+    .padsobre {
+        padding: 0;
+    }
+
+    .diferencial-single {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-header .two {
+        display: none;
+    }
+
+    .content-header .one {
+        text-align: center;
+        width: 100%;
+    }
+
+    .telefone-header {
+        display: none;
+    }
+
+    nav.desktop {
+        display: none;
+    }
+
+    section.header-master {
+        min-height: 400px;
+    }
+}
